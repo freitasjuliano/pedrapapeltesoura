@@ -122,6 +122,7 @@ function game(userChoice) {
         document.getElementById("boxresponse").style.backgroundColor = "#EBF4FE"
         userEmoji.innerHTML = "&#129489"
         computerEmoji.innerHTML = "&#129302"
+        result.innerHTML = ""
     }
     
     
