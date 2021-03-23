@@ -29,8 +29,6 @@ h2 {
 h3 {
     line-height: 76px;
     font-family: 'MuseoModerno', cursive;
-
-
 }
 
 h6 {
@@ -104,7 +102,6 @@ button:active, button:target, button:focus {
     border-radius: 40px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .reset:focus, .reset:target {
@@ -116,4 +113,30 @@ button:active, button:target, button:focus {
 .reset:active {
     background-color:#0051BE ;
     color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .cardbody {
+        width: 90vw;
+        height: 500px;
+        border-radius: 25px;
+        margin: 5vh auto 0;
+    }
+
+    .boxscore {
+        width: 80vw;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        line-height: 38px;
+    }
+
+    .reset {
+        margin: 20px auto;
+    }
+
 }
